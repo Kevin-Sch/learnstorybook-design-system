@@ -14,6 +14,9 @@ export default {
       options: ["tiny", "small", "medium", "large"],
     },
   },
+  parameters: {
+    componentSubtitle: "Displays an image that represents a user or organization"
+  }
 };
 
 export const Standard = (args) => <Avatar {...args} />;
