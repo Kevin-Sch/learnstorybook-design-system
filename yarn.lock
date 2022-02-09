@@ -1780,6 +1780,28 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@storybook/addon-a11y@^6.4.18":
+  "integrity" "sha512-sqsA5pXXKKDsquSXu5KC8WxQ1gg5ZoNIltWRgmJCEt4a0bkGUzn2iz+uW/gbt4NOVWGPXKvmMBLT/q4Q9gb+og=="
+  "resolved" "https://registry.npmjs.org/@storybook/addon-a11y/-/addon-a11y-6.4.18.tgz"
+  "version" "6.4.18"
+  dependencies:
+    "@storybook/addons" "6.4.18"
+    "@storybook/api" "6.4.18"
+    "@storybook/channels" "6.4.18"
+    "@storybook/client-logger" "6.4.18"
+    "@storybook/components" "6.4.18"
+    "@storybook/core-events" "6.4.18"
+    "@storybook/csf" "0.0.2--canary.87bc651.0"
+    "@storybook/theming" "6.4.18"
+    "axe-core" "^4.2.0"
+    "core-js" "^3.8.2"
+    "global" "^4.4.0"
+    "lodash" "^4.17.21"
+    "react-sizeme" "^3.0.1"
+    "regenerator-runtime" "^0.13.7"
+    "ts-dedent" "^2.0.0"
+    "util-deprecate" "^1.0.2"
+
 "@storybook/addon-actions@^6.4.18", "@storybook/addon-actions@6.4.18":
   "integrity" "sha512-qPw5qfbWPmyOdaXxAVAbdVLVVE31gRrkH0ESUps+FXVNypRz1/0lJ6M2VrtOHMrFbGBl94SALdqsHOx6OYZKwg=="
   "resolved" "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-6.4.18.tgz"
@@ -3901,7 +3923,7 @@
     "postcss" "^7.0.32"
     "postcss-value-parser" "^4.1.0"
 
-"axe-core@^4.3.5":
+"axe-core@^4.2.0", "axe-core@^4.3.5":
   "integrity" "sha512-gd1kmb21kwNuWr6BQz8fv6GNECPBnUasepcoLbekws23NVBLODdsClRZ+bQ8+9Uomf3Sm3+Vwn0oYG9NvwnJCw=="
   "resolved" "https://registry.npmjs.org/axe-core/-/axe-core-4.4.1.tgz"
   "version" "4.4.1"
