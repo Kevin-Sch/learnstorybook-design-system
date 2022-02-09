@@ -1,7 +1,7 @@
 {
   "name": "@magic-ds/learnstorybook-design-system-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/cli": "^7.17.0",
     "@storybook/addon-a11y": "^6.4.18",
